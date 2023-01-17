@@ -1,0 +1,5 @@
+let array = [1, 6, 11, 24, 0, Infinity, 1, 6, 45, 1000]
+function sortToLow (array){
+    return array.sort((a,b)=>a-b).reverse()
+}
+console.log(sortToLow(array));
